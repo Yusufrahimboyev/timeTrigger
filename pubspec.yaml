@@ -31,6 +31,7 @@ dependencies:
   flutter_localization: ^0.3.3
 
 dev_dependencies:
+
   flutter_test:
     sdk: flutter
   flutter_lints: ^5.0.0
@@ -68,9 +69,10 @@ flutter_launcher_icons:
 
 # 3. Native Splash sozlamalari
 flutter_native_splash:
-  color: "#242A32"
-  image: "assets/images/logo.png" # Splash ekranidagi rasm
+  color: "#050B0A"
+  image: "assets/images/splash.png" # Splash ekranidagi rasm
 
   android_12:
     image: "assets/images/logo.png"
-    color: "#242A32"
+    color: "#050B0A"
+
