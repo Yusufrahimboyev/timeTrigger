@@ -1,7 +1,6 @@
 {
-  "@@locale": "uz",
-  "helloWorld": "Salom Dunyo!",
-  "@helloWorld": {
-    "description": "The conventional newborn programmer greeting"
+ "@@locale": "en",
+   "appName": "Time Trigger",
+   "hello": "Salom!"
   }
 }

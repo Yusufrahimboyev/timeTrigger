@@ -7,58 +7,17 @@ class AppTheme {
     useMaterial3: true,
     brightness: Brightness.light,
     colorScheme: lightColorScheme,
-    primaryColor: lightColorScheme.primary,
+
   );
   static final darkTheme = ThemeData(
     useMaterial3: true,
     brightness: Brightness.light,
     colorScheme: darkColorScheme,
-    primaryColor: darkColorScheme.primary,
+
   );
 }
 
-class ColorExtension extends ThemeExtension<ColorExtension> {
-  const ColorExtension({
-    required this.white,
-    required this.blue,
-    required this.main,
-    required this.textUnselected,
-    required this.mainLight,
-    required this.yellow,
-  });
 
-  final Color white;
-  final Color blue;
-  final Color main;
-  final Color textUnselected;
-  final Color mainLight;
-  final Color yellow;
-
-  @override
-  ThemeExtension<ColorExtension> copyWith({
-    Color? white,
-    Color? blue,
-    Color? main,
-    Color? textUnselected,
-    Color? mainLight,
-    Color? yellow,
-  }) => ColorExtension(
-    white: this.white,
-    blue: this.blue,
-    main: this.main,
-    textUnselected: this.textUnselected,
-    mainLight: this.mainLight,
-    yellow: this.yellow,
-  );
-
-  @override
-  ThemeExtension<ColorExtension> lerp(
-    covariant ThemeExtension<ColorExtension>? other,
-    double t,
-  ) {
-    throw UnimplementedError();
-  }
-}
 
 const ColorScheme lightColorScheme = ColorScheme(
   brightness: Brightness.light,
